@@ -1,0 +1,8 @@
+.cat{
+    opacity: 0.5;
+    background: grey;
+
+}
+.horse{
+    background: rgba(255, 255, 0, 0.5);
+}
