@@ -1,0 +1,18 @@
+ol {
+    
+  color:rgba(0,0,255,0.3);
+  text-shadow: -4px 2px 6px rgba(103, 57, 255, 0.93);
+
+}
+a:hover {
+color: rgba(61, 128, 116, 0.93);
+}
+a:visited {
+    color: black;
+}
+a:link{
+    color:red;
+}
+a:active{
+     color:blue;
+}

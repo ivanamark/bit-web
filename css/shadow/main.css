@@ -1,0 +1,13 @@
+.upper{
+    text-transform: uppercase;
+    text-decoration-line: underline;
+    text-align: left;
+}
+.lower{
+    text-transform: lowercase;
+    text-decoration:line-through;
+    text-align: right;
+}
+.center{
+   text-align: center;
+}
