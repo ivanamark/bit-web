@@ -1,0 +1,16 @@
+.menu {
+    margin: 50px auto;
+    width: 960px;
+    background-color: red;
+    padding: 0.5px;
+    overflow: auto;
+}
+
+ul {
+    color: white;
+    float: right;
+}
+
+ul > li {
+    display: inline-block;
+}

@@ -1,0 +1,44 @@
+.a {
+    position:relative;
+    top:50px;
+    left:100px;
+    margin-bottom:30px;
+}
+
+.b {
+    position: absolute;
+    right: 10px;
+    top: 15px;
+   
+}
+
+.c {
+    position: fixed;
+    bottom: 0;
+    left: 35%;
+}
+a{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.s{
+    position: fixed;
+    bottom: 18px;
+    right: 0;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+}
+#neki {
+    text-align: left;
+   
+    
+
+}
+div{
+    width: 30%;
+    height: 200px;
+}

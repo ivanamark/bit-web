@@ -1,0 +1,52 @@
+.red {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+
+}
+.yellow {
+    background-color:yellow;
+    width: 200px;
+    height: 200px;
+    
+}
+.black {
+    background-color: rgb(5, 5, 12);
+    width: 200px;
+    height: 200px;
+    
+}
+
+.yellow2 {
+    position: relative;
+    bottom: 100px;
+    left: 100px;
+    
+}
+.black2 {
+    position: relative;
+    bottom: 200px;
+    left: 200px;
+    
+}
+
+
+
+.red3 {
+    position: absolute;
+    right: 100px;
+    top: 1250px;
+    z-index: 2;
+}
+
+.yellow3 {
+    position: absolute;
+    right: 150px ;
+    top: 1350px;
+    z-index: 1;
+}
+.black3 {
+    position: absolute;
+    right: 200px;
+    top: 1450px;
+}
