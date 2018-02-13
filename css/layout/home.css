@@ -1,0 +1,51 @@
+.glavni > li {
+    display: inline-block;
+    padding: 0.4px;
+    margin: 10px auto 10px auto;
+    
+}
+.main{
+    width: 960px;
+    margin:50px auto;
+    background-color: rgb(255, 204, 0);
+    padding: 0.5px;
+    position: relative;
+    display: inline-block;
+}
+
+li>ul{
+    display:none;
+	float: left;
+	top:70%;
+	left:140px;
+	list-style: none;
+    
+    
+    position: absolute;
+    background-color:whitesmoke;
+    min-width: 160px;
+    
+    padding: 20px 25px;
+   
+}
+li:hover > ul{
+    display: block;
+      
+
+}
+.fog{
+    margin:5px auto;
+    padding: 8px 8px;
+    background-color: rgba(239, 248, 247, 0.705);
+}
+.hov:hover{
+    background-color:rgba(239, 248, 247, 0.705);
+    padding: 8px 8px;
+}
+.first{
+    width:960px;
+    height: 500px;
+    background-color: rgba(192,192,192,0.3);
+}
+
+    

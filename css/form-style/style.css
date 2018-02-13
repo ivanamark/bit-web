@@ -1,45 +1,46 @@
-body{
+body {
     font-family: 'Roboto Condensed', sans-serif;
-    
 }
 
-input{
+input {
     display: block;
     width: 100%;
     border-radius: 10px;
     box-sizing: border-box;
-    -webkit-box-shadow: 0px 0px 3px 0px rgba(102,109,112,1);
--moz-box-shadow: 0px 0px 3px 0px rgba(102,109,112,1);
-box-shadow: 0px 0px 3px 0px rgba(102,109,112,1);
-margin: 10px auto 10px auto;
-height: 30px;
-padding-left: 10px;
-
-
+    -webkit-box-shadow: 0px 0px 3px 0px rgba(102, 109, 112, 1);
+    -moz-box-shadow: 0px 0px 3px 0px rgba(102, 109, 112, 1);
+    box-shadow: 0px 0px 3px 0px rgba(102, 109, 112, 1);
+    margin: 10px auto 10px auto;
+    height: 30px;
+    padding-left: 10px;
 }
-fieldset{
+
+fieldset {
     margin: 100px auto 100px auto;
     width: 20%;
     height: 500px;
-    border-radius: 10px;
-    border:hidden;
-    background-color: rgba(192,192,192,0.3)
+    border-radius: 12px 1px;
+    border: hidden;
+    background-color: rgba(192, 192, 192, 0.3)
 }
-span{
+
+span {
     color: orange;
 }
-div{
+
+div {
     width: 90%;
     height: 470px;
     margin: 0 auto;
-    
 }
-h1{
+
+h1 {
     text-align: center;
     margin-top: 50px;
 }
-.red{
-    background-color: red;
-    padding: 0;
-}
 
+.red {
+    background-color: rgba(255, 0, 0, 0.3);
+    padding: 0;
+    cursor: pointer;
+}
