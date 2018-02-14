@@ -1,16 +1,94 @@
 .menu {
-    margin: 50px auto;
+    margin: 2px auto;
     width: 960px;
     background-color: red;
     padding: 0.5px;
     overflow: auto;
+   
 }
-
+.main{
+    width:960px;
+    background-color: white;
+}
 ul {
     color: white;
     float: right;
 }
 
-ul > li {
+.navigation >li {
     display: inline-block;
+}
+
+.sl {
+    margin-top: 3px;
+    width: 960px
+}
+
+.links {
+    width: 960px;
+    
+    display: block;
+}
+
+.lista >li {
+    display: block;
+    background-color: rgb(235, 194, 117);
+    height: 45px;
+    
+}
+.a {
+   width:300px;
+   height:400 px;
+   float: left;
+   margin-right: 2.5px;
+   margin-left: 2.5px;
+}
+.b {
+    width:300px;
+   height:400 px;
+   float: left;
+   margin-right: 2.5px;
+   margin-left: 2.5px;
+}
+.c{
+    width:300px;
+   height:400 px;
+   float: left;
+   margin-right: 3.5px;
+   margin-left: 3.5px;
+}
+.d{
+    width:300px;
+   height:400 px;
+   float: left;
+   margin-right: 3.5px;
+   margin-left: 3.5px;
+}
+.e{
+    width:300px;
+   height:400 px;
+   float: left;
+   margin-right: 3.5px;
+   margin-left: 3.5px;
+}
+.f{
+    width:300px;
+   height:400 px;
+   float: left;
+   margin-right: 3.5px;
+   margin-left: 3.5px;
+}
+.g{
+    width:300px;
+   height:400 px;
+   float: left;
+   margin-right: 3.5px;
+   margin-left: 3.5px;
+}
+.h{
+    width:300px;
+   height:400 px;
+   float: left;
+   margin-right: 3.5px;
+   margin-left: 3.5px;
 }

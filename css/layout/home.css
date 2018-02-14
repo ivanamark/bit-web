@@ -6,11 +6,13 @@
 }
 .main{
     width: 960px;
+    
     margin:50px auto;
     background-color: rgb(255, 204, 0);
     padding: 0.5px;
-    position: relative;
+    
     display: inline-block;
+    position: relative;
 }
 
 li>ul{
@@ -40,7 +42,7 @@ li:hover > ul{
 }
 .hov:hover{
     background-color:rgba(239, 248, 247, 0.705);
-    padding: 8px 8px;
+   
 }
 .first{
     width:960px;
