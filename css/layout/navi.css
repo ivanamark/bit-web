@@ -103,13 +103,14 @@ ul {
 }
 footer {
     display: block;
-   position: fixed;
-    right: 0;
+  position: fixed;
+   
     bottom: 0;
-    left: 0;
+    
     padding: 1rem;
     background-color: #0E2F44;
-    text-align: center;
+   
     color: white;
     text-align: left;
   }
+ 

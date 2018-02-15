@@ -1,0 +1,55 @@
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+header {
+    width: 100%;
+    padding-bottom: 50px;
+}
+header::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+img {
+    border-radius: 50%;
+    float: left;
+    margin-right: 30px;
+    width: 100px;
+}
+
+.main {
+    width: 100%;
+}
+
+.about>h2 {
+    margin-top: 0;
+    padding-left: 0;
+}
+
+.about {
+    float: left;
+    width: 30%;
+}
+
+.about>p {
+    padding-right: 15px;
+}
+
+.info {
+    border-left: 3px solid black;
+    float: left;
+    width: 65%;
+}
+
+.info>p,
+h2 {
+    padding-left: 15px;
+}
+
+.info>h2 {
+    margin-top: 0;
+}
