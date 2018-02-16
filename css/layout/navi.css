@@ -5,19 +5,20 @@
     padding: 0.5px;
     overflow: auto;
     position: relative;
-   
 }
-.main{
-    width:960px;
+
+.main {
+    width: 960px;
     background-color: white;
     margin: 0 auto;
 }
+
 ul {
     color: white;
     float: right;
 }
 
-.navigation >li {
+.navigation>li {
     display: inline-block;
 }
 
@@ -28,89 +29,93 @@ ul {
 
 .links {
     width: 960px;
-    
     display: block;
 }
 
-.lista >li {
+.lista>li {
     display: block;
     background-color: #ffcc00;
     height: 60px;
     font-size: 15px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color:black;
-    
-    
+    color: black;
+    text-align: center;
 }
-.a {
-   width:300px;
-   height:400 px;
-   float: left;
-   margin-right: 8px;
-   margin-left: 8px;
-}
-.b {
-    width:300px;
-   height:400 px;
-   float: left;
-   margin-right: 8px;
-   margin-left: 8px;
-}
-.c{
-    width:300px;
-   height:400 px;
-   float: left;
-   margin-right: 8px;
-   margin-left: 8px;
-   clear:left;
-   
-}
-.d{
-    width:300px;
-   height:400 px;
-   float: left;
-   margin-right: 8px;
-   margin-left: 8px;
-}
-.e{
-    width:300px;
-   height:400 px;
-   float: left;
-   margin-right: 8px;
-   margin-left: 8px;
 
+.a {
+    width: 300px;
+    height: 400 px;
+    float: left;
+    margin-right: 8px;
+    margin-left: 8px;
 }
-.f{
-    width:300px;
-   height:400 px;
-   float: left;
-   margin-right: 8px;
-   margin-left: 8px;
+
+.b {
+    width: 300px;
+    height: 400 px;
+    float: left;
+    margin-right: 8px;
+    margin-left: 8px;
 }
-.g{
-    width:300px;
-   height:400 px;
-   float: left;
-   margin-right: 8px;
-   margin-left: 8px;
+
+.c {
+    width: 300px;
+    height: 400 px;
+    float: left;
+    margin-right: 8px;
+    margin-left: 8px;
+    clear: left;
 }
-.h{
-    width:300px;
-   height:400 px;
-   float: left;
-   margin-right: 8px;
-   margin-left: 8px;
+
+.d {
+    width: 300px;
+    height: 400 px;
+    float: left;
+    margin-right: 8px;
+    margin-left: 8px;
 }
+
+.e {
+    width: 300px;
+    height: 400 px;
+    float: left;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+.f {
+    width: 300px;
+    height: 400 px;
+    float: left;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+.g {
+    width: 300px;
+    height: 400 px;
+    float: left;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+.h {
+    width: 300px;
+    height: 400 px;
+    float: left;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
 footer {
     display: block;
-  position: fixed;
-   
+   right: 0;
+    left: 0;
     bottom: 0;
-    
-    padding: 1rem;
+   position:fixed;
+    padding: 17px;
     background-color: #0E2F44;
-   
+    text-align: center;
     color: white;
-    text-align: left;
-  }
- 
+    
+}
