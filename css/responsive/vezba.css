@@ -43,8 +43,6 @@ ul>li {
     border-bottom: none;
 }
 
-
-
 ul>li:hover {
     background: blue;
 }
@@ -62,6 +60,7 @@ article {
 article>img {
     padding-bottom: 20px;
 }
+
 @media (min-width: 576px) {
     h1 {
         float: left;
@@ -87,23 +86,43 @@ article>img {
         border-radius: 7px;
         padding: 18px;
         margin-bottom: 35px;
-        
     }
     article {
         text-align: center;
         border-radius: 7px;
         float: right;
     }
-    article > img {
+    article>img {
         float: left;
         display: block;
         padding: 1px;
         width: 50%;
         height: 200px;
-        
-     
-        
     }
-    
+}
+
+@media (min-width: 768px) {
+    main {
+        margin: 0 auto;
+        width: 100%;
+        overflow: auto;
+    }
+    article {
+        display: inline-block;
+        width: 32%;
+        text-align: center;
+        border: none;
+        padding: 0;
+    }
+    article>img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .as{
+        width: 36%;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
     
 }
