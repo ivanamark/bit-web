@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+@font-face{
+    font-family: myFont;
+    src: url(fonts/fontawesome-webfont.woff);
+}
+/* MOBILE LAYOUT */
+
+/************* HEADER ****************/
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    background-image: url("./images/banner3.jpg");
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 10px;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 24px;
+    padding: 30px 0;
+    color: white;
+ 
+}
+
+button {
+    color: white;
+    background-color: cornflowerblue;
+    padding: 5px 10px;
+    border-radius: 15px;
+    border: 1px solid cornflowerblue;
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+/************* NAVIGATION ****************/
+nav{
+    width: 100%;
+}
+
+
+nav>img{
+    display: block;
+    width: 50%;
+    margin: 20px auto;
+}
+
+nav>ul{
+    width: 80%;
+    list-style: none;
+    margin: 0 auto;
+    
+}
+nav>ul>li{
+    text-align: center;
+    background-color: cornflowerblue;
+    padding:10px 0;
+    font-size: 20px;
+    color:white;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+
+
+/************** MAIN ****************/
+
+
+
+main>article{
+    width: 70%;
+    margin: 0 auto;
+
+}
+
+article h2{
+    text-align: center;
+    padding: 50px 0 5px 0;
+}
+
+article img{
+    display: block;
+    margin: 0 auto;
+}
+
+article h3{
+    text-align: left;
+    color:cornflowerblue;
+    padding: 10px 0 20px 0;
+}
+
+article p{
+    text-align: left;
+    padding-bottom: 30px;
+}
+
+article>ul>li{
+    list-style-image: url("./images/arrow_bullet.png");
+    padding-bottom:25px;
+}
+
+main>img{
+   width: 80%;
+   display: block;
+   margin: 0 auto;
+}
