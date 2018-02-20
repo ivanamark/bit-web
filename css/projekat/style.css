@@ -107,11 +107,13 @@ article>img {
     display: block;
     margin: 0 auto;
 }
-article>.a{
+
+article>.a {
     width: 50%;
     display: block;
     margin: 0 auto;
 }
+
 .blue-box {
     background-color: #80bfff;
     margin-bottom: 10px;
@@ -325,18 +327,17 @@ footer>p {
     }
     nav>ul {
         float: right;
-        background-color: transparent;
         width: auto;
         margin-right: 20px;
     }
     nav>ul>li {
-        display: inline;
+        display: inline-block;
+        background: none;
     }
     #naglasi {
         text-align: center;
         padding: 50px 0 5px 0;
     }
-    
     main>section img {
         width: 45%;
         margin-top: 60px;
@@ -346,9 +347,12 @@ footer>p {
         clear: both;
         width: 85%;
     }
-    article>img {
-        display: block;
-        margin: 0 auto;
+    main>img {
+
+    border-style: none;
+    display: block;
+    margin: 0 auto;
+        
     }
     main>.first {
         box-sizing: border-box;
@@ -396,96 +400,96 @@ footer>p {
     }
 }
 
-
-    @media (min-width: 1200px) {
-        #naglasi{
-            text-align: right;
-            margin:0 auto;
-        }
-        main>.first {
-            box-sizing: border-box;
-            width: 30%;
-            float: left;
-        }
-        main>section> img {
-            box-sizing: border-box;
-            width: 30%;
-            float: left;
-            margin-left: 1%;
-            margin-right: 2%;
-        }
-        main>.clear {
-            width: 30%;
-            float: left;
-            clear: right;
-        }
-        article>h2 {
-            clear: both;
-        }
-        
-        .blue-box {
-            float: left;
-            width: 31%;
-        }
-        .blue-box>h3 {
-            font-size: 12px;
-        }
-        .blue-box:last-child {
-            clear: right;
-            overflow: auto;
-        }
-        
-        .blue-box>h3 {
-            font-size: 10px;
-        }
-        .blue-box>img {
-            width: 19%;
-            height: 19%;
-            float: left;
-            overflow: auto;
-            border-radius: 50%;
-            padding: 3px;
-            border: 3px solid white;
-            box-sizing: content-box;
-            margin-right: 20px;
-        }
-        section>div>p {
-            clear: left;
-            line-height: 32px;
-            color: white;
-        }
-        .fa-star-o {
-            width: 12px;
-            height: 12px;
-            padding: 0px;
-        }
-        
-        .contact {
-            float: left;
-            width: 25%;
-            overflow: auto;
-            height: 256px;
-        }
-        .connect {
-            float: left;
-            width: 25%;
-            overflow: auto;
-            height: 256px;
-        }
-        .address {
-            float: right;
-            width: 25%;
-            overflow: auto;
-            height: 256px;
-        }
-        .home {
-            float: right;
-            width: 25%;
-            overflow: auto;
-            height: 256px;
-          
-        }
-        footer {
-            margin-top: 180px;
-        }
+@media (min-width: 1200px) {
+   
+    main>.first {
+        box-sizing: border-box;
+        width: 30%;
+        float: left;
     }
+    main>section>img {
+        box-sizing: border-box;
+        width: 30%;
+        float: left;
+        margin-left: 1%;
+        margin-right: 2%;
+    }
+    article>img{
+        width:auto;
+    }
+    main>.clear {
+        width: 30%;
+        float: left;
+        clear: right;
+    }
+    main>#naglasi{
+        display: block;
+        margin:0 auto;
+    }
+    article>h2 {
+        clear: both;
+    }
+    .blue-box {
+        
+        width: 32%;
+        display:inline-block;
+    }
+    .blue-box>h3 {
+        font-size: 12px;
+    }
+    .blue-box:last-child {
+        clear: right;
+        overflow: auto;
+    }
+    .blue-box>h3 {
+        font-size: 10px;
+    }
+    .blue-box>img {
+        width: 19%;
+        height: 19%;
+        float: left;
+        overflow: auto;
+        border-radius: 50%;
+        padding: 3px;
+        border: 3px solid white;
+        box-sizing: content-box;
+        margin-right: 20px;
+    }
+    section>div>p {
+        clear: left;
+        line-height: 32px;
+        color: white;
+    }
+    .fa-star-o {
+        width: 12px;
+        height: 12px;
+        padding: 0px;
+    }
+    .contact {
+        float: left;
+        width: 25%;
+        overflow: auto;
+        height: 256px;
+    }
+    .connect {
+        float: left;
+        width: 25%;
+        overflow: auto;
+        height: 256px;
+    }
+    .address {
+        float: right;
+        width: 25%;
+        overflow: auto;
+        height: 256px;
+    }
+    .home {
+        float: right;
+        width: 25%;
+        overflow: auto;
+        height: 256px;
+    }
+    footer {
+        margin-top: 180px;
+    }
+}
