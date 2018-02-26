@@ -67,7 +67,14 @@ nav>ul>li>a {
     color: white;
     text-decoration: none;
 }
+main>h2{
+    text-align:center;
 
+}
+main>img{
+    display: block;
+    margin:0 auto;
+}
 main>article {
     width: 70%;
     margin: 0 auto;
@@ -103,7 +110,7 @@ article>ul>li {
 }
 
 article>img {
-    width: 50%;
+    
     display: block;
     margin: 0 auto;
 }
@@ -284,7 +291,7 @@ footer {
 footer>ul {
     padding: 50px 0 20px;
     text-align: center;
-    width: 90%;
+    
 }
 
 footer>ul>li {
@@ -431,7 +438,7 @@ footer>p {
     }
     .blue-box {
         
-        width: 32%;
+        width: 31%;
         display:inline-block;
     }
     .blue-box>h3 {
