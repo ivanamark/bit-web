@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        img {
+            width: 33%;
+        }
+
+        .red-border {
+            border: 5px solid red;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <img class="red-border" src="https://img-aws.ehowcdn.com/600x600p/photos.demandstudios.com/getty/article/165/76/87490163.jpg" alt="">
+        <img src="https://img-aws.ehowcdn.com/600x600p/photos.demandstudios.com/getty/article/165/76/87490163.jpg" alt="">
+        <img src="https://img-aws.ehowcdn.com/600x600p/photos.demandstudios.com/getty/article/165/76/87490163.jpg" alt="">
+    </div>
+    <div>
+        <img src="https://www.petmd.com/sites/default/files/petmd-cat-happy-13.jpg" alt="">
+        <img src="https://www.petmd.com/sites/default/files/petmd-cat-happy-13.jpg" alt="">
+        <img src="https://www.petmd.com/sites/default/files/petmd-cat-happy-13.jpg" alt="">
+    </div>
+
+
+
+    <script>
+        function switchBorders() {
+            var element = document.querySelector(".red-border"); //tako selektujemoneki element po klasi
+            element.className = ""; //ovako mu brisemo klasu
+            var parentEl = element.parentNode; //otisli smo na njegovog roditelja
+            var sibling = parentEl.nextElementSibling; //otisli smo do parentovog siblinga
+           //console.log(sibling);
+            
+            var childs = sibling.children;//ovako selektujemo svu njegovu decu
+            console.log(childs);
+            
+            childs[1].className = "red-border";
+          
+
+        }
+        switchBorders();
+    </script>
+</body>
+
+</html>
