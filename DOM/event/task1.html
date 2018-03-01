@@ -14,7 +14,7 @@
         }
         button {
             background-color: red;
-            margin: 50px 50px;;
+            margin: 0 auto;
             display: block;
             
         }
@@ -26,12 +26,16 @@
 <body>
   
    <button type="submit" onclick="changeColor()">Toggle Background</button>
-
+   <button type="submit" onclick="stopchangingColor()">Stop</button>
 <script>
  
     function changeColor() {
         var body = document.querySelector('body');
         body.className="yellow";
+    }
+    function stopchangingColor() {
+        var body = document.querySelector('body');
+        body.className="";
     }
 </script>
 </body>
