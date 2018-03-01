@@ -1,49 +1,51 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <style>
-        .active{
+        .active {
             background-color: purple;
         }
     </style>
 </head>
+
 <body>
-    <div>  
-    <ul>
-        <li>hfgdksla</li>
-        <li>cccccccccccc</li>
-        <li>ssssssssssssssss</li>
-    </ul>
-</div>
-<div>
-    <ul>
+    <div>
+        <ul>
+            <li>hfgdksla</li>
+            <li>cccccccccccc</li>
+            <li>ssssssssssssssss</li>
+        </ul>
+    </div>
+    <div>
+        <ul>
             <li class="active">hhhhhhhhhhhhhhhh</li>
             <li>yyyyyyyyyyyyyyyyy</li>
             <li>qqqqqqqqqqqqq</li>
         </ul>
     </div>
     <script>
-    
-    function switchClasses() {
+        function switchClasses() {
             var element = document.querySelector(".active"); //tako selektujemo neki element po klasi
             element.className = ""; //ovako mu brisemo klasu
             var parentEl = element.parentNode; //otisli smo na njegovog roditelja ul
-            var parent2=parentEl.parentNode;//div roditelj
-            var sibling = parent2.nextElementSibling; //otisli smo do parentovog siblinga
-           //console.log(sibling);
-            
-            var childs = sibling.children;//ovako selektujemo svu njegovu decu
+            var parent2 = parentEl.parentNode; //div roditelj
+            var sibling = parent2.ElementSibling; //otisli smo do parentovog siblinga
+            //console.log(sibling);
+
+            var childs = sibling.children; //ovako selektujemo svu njegovu decu
             console.log(childs);
-            var neki=childs.children;//ul
-            
-             neki[0].className("active");
-          
-            switchClasses();
+            var neki = childs.children; //ul
+
+            neki[0].className = "active";
+
+
         }
-       
+        // switchClasses();
     </script>
 </body>
+
 </html>
