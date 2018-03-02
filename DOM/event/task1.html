@@ -16,6 +16,7 @@
             background-color: red;
             margin: 0 auto;
             display: block;
+            margin-bottom: 20px;
             
         }
         .yellow{
@@ -31,12 +32,15 @@
  
     function changeColor() {
         var body = document.querySelector('body');
-        body.className="yellow";
+        // body.className="yellow";
+        body.classList.add("yellow");
+        // this.classList.add("yellow");//u hendler f jama je this referenca nad elementom
     }
     function stopchangingColor() {
         var body = document.querySelector('body');
         body.className="";
     }
+    body.addEventListener("onclick",changeColor,stopchangingColor);
 </script>
 </body>
 
