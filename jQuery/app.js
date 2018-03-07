@@ -9,9 +9,17 @@ var links = [
 
 var $gallery = $('.gallery');
 $body = $("body");
+$gallery.prepend('<h1>Amazing galery</h1>');
+var $h1 = $("h1");
+$h1.css("color", "red");
+$h1.css("text-aligned", "center");
+$gallery.css({
+    "background-color": "#ffffcc",
+    "width": "50%",
+    "margin": "0 auto"
 
-$body.prepend('<h1>Amazing galery</h1>');
-$body.css("background-color","#ffffcc");
+
+});
 for (var i = 0; i < links.length; i++) {
     var element = links[i];
     var img = $("<img>");

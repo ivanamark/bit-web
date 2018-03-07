@@ -1,0 +1,11 @@
+.owl-carousel{
+    width:30%;
+    border: 2px solid rgb(0, 140, 255);
+
+}
+.item{
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 10;
+}

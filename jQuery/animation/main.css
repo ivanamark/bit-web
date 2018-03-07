@@ -1,0 +1,10 @@
+.move {
+    border: 2px solid black;
+    width: 30%;
+    height: 100px;
+    position: absolute;
+}
+
+body {
+    position: relative;
+}
