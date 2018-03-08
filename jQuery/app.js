@@ -33,7 +33,7 @@ for (var i = 0; i < links.length; i++) {
 }
 
 $("img").each(function (index, element) {
-    var random = Math.random() * (300 - 50) + 50;
+    var random = Math.random() * (500 - 50) + 50;
     $(element).css("width", random);
     // var random = Math.random() * (30 - 5) + 5;
     // $(element).css("padding", random);
