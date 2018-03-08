@@ -9,10 +9,15 @@ var links = [
 
 var $gallery = $('.gallery');
 $body = $("body");
-$gallery.prepend('<h1>Amazing galery</h1>');
 var $h1 = $("h1");
-$h1.css("color", "red");
-$h1.css("text-aligned", "center");
+$h1.css({
+    "color": "red",
+    "margin": "0 auto",
+    "text-align": "center"
+});
+$gallery.prepend("<h1>Amazing gallery</h1>");
+
+
 $gallery.css({
     "background-color": "#ffffcc",
     "width": "50%",
@@ -30,6 +35,6 @@ for (var i = 0; i < links.length; i++) {
 $("img").each(function (index, element) {
     var random = Math.random() * (300 - 50) + 50;
     $(element).css("width", random);
-    var random = Math.random() * (30 - 5) + 5;
-    $(element).css("padding", random);
+    // var random = Math.random() * (30 - 5) + 5;
+    // $(element).css("padding", random);
 });
