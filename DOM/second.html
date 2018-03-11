@@ -5,11 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <style>
-        .active {
-            background-color: purple;
-        }
-    </style>
+   <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
@@ -30,21 +26,16 @@
     <script>
         function switchClasses() {
             var element = document.querySelector(".active"); //tako selektujemo neki element po klasi
-            element.className = ""; //ovako mu brisemo klasu
-            var parentEl = element.parentNode; //otisli smo na njegovog roditelja ul
-            var parent2 = parentEl.parentNode; //div roditelj
-            var sibling = parent2.ElementSibling; //otisli smo do parentovog siblinga
-            //console.log(sibling);
-
-            var childs = sibling.children; //ovako selektujemo svu njegovu decu
-            console.log(childs);
-            var neki = childs.children; //ul
-
-            neki[0].className = "active";
-
-
-        }
-        // switchClasses();
+            element.className =" "; //ovako mu brisemo klasu
+            var parent = element.parentElement.parentElement; //otisli smo na njegovog roditelja body
+            var sibling = parent.previousElementSibling; //otisli smo do parentovog siblinga
+        //     //console.log(sibling);
+            //var item=sibling.children    
+           var wadd= sibling.firstElementChild.firstElementChild;
+           wadd.className=".active";
+           console.log(wadd);
+       }
+        switchClasses();
     </script>
 </body>
 

@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-
-
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
     <link rel="stylesheet" href="./css/main.css">
@@ -36,84 +35,115 @@
     </header>
     <main>
         <section class="first">
-
             <img src="./img/profile.png" alt="">
             <h1>BOOTSTRAP AND SASS</h1>
             <h5>Web Developer-Graphic Artist-User Experience Designer</h5>
         </section>
         <section>
-            <div class="containter">
+            <div class="container-fluid">
                 <h2>PORTFOLIO</h2>
                 <div class="row">
-                    <div class="col-10 offset-1">
+                    <div class="col-12 col-md-6 col-lg-4 mt-2">
                         <img src="./img/portfolio/cabin.png" alt="" class="img-fluid">
                     </div>
-                    <div class="col-10 offset-1">
+                    <div class="col-12 col-md-6 col-lg-4 mt-2">
                         <img src="./img/portfolio/cake.png" alt="" class="img-fluid">
                     </div>
-                    <div class="col-10 offset-1">
+                    <div class="col-12 col-md-6 col-lg-4 mt-2">
                         <img src="./img/portfolio/circus.png" alt="" class="img-fluid">
                     </div>
-                    <div class="col-10 offset-1">
+                    <div class="col-12 col-md-6 col-lg-4 mt-2">
                         <img src="./img/portfolio/game.png" alt="" class="img-fluid">
                     </div>
-                    <div class="col-10 offset-1">
+                    <div class="col-12 col-md-6 col-lg-4 mt-2">
                         <img src="./img/portfolio/safe.png" alt="" class="img-fluid">
                     </div>
-                    <div class="col-10 offset-1">
+                    <div class="col-12 col-md-6 col-lg-4 mt-2">
                         <img src=" ./img/portfolio/submarine.png " alt=" " class="img-fluid">
                     </div>
-
                 </div>
             </div>
         </section>
         <section class="third">
             <div>
-                    <div class="container">
-                <h3>ABOUT</h3>
                 
-                
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos dolores eaque autem, nam dolore praesentium
+                    <h3>ABOUT</h3>
+                    <div class="col-12 col-sm-8-offset-2">  
+                    <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos dolores eaque autem, nam dolore praesentium
                         architecto libero sit, earum maiores soluta cum provident nihil reiciendis amet? Natus fugit minus
                         eaque!Odio ad dolores praesentium aperiam distinctio animi laborum consectetur repudiandae aspernatur
                         sint tenetur dolor voluptatem, laboriosam nisi, soluta ipsum est.
                     </p>
-
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos dolores eaque autem, nam dolore praesentium
+                    <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos dolores eaque autem, nam dolore praesentium
                         architecto libero sit, earum maiores soluta cum provident nihil reiciendis amet? Natus fugit minus
                         eaque!Odio ad dolores praesentium aperiam distinctio animi laborum consectetur repudiandae aspernatur
                         sint tenetur dolor voluptatem, laboriosam nisi, soluta ipsum est.
                     </p>
-             
-            
-                <button type="button" class="btn btn-outline-secondary">Find out</button>
+                
+                    <button type="button" class="btn btn-outline-secondary">Find Out More</button>
+                </div>
             </div>
+        </section>
+        <div class="container-fluid">
+            <form>
+                <div class="form-group">
+                    <label for="exampleInputName">Name</label>
+                    <input type="name" class="form-control" id="exampleInputName" placeholder="Name">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPhoneNumber">Phone Number</label>
+                    <input type="phone" class="form-control" id="exampleInputPhoneNumber" aria-describedby="phoneNumber" placeholder="Enter phone">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputMessage">Message</label>
+                    <input type="message" class="form-control" id="exampleInputMessage" aria-describedby="message" placeholder="Enter message">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
         </div>
-        </section>
-
-        <section>
-            <h3 class="contact">CONTACT ME</h3>
-            <ul class="list-group list-group-flush">
-                <li class="list-group-item">Name</li>
-                <li class="list-group-item">Email address</li>
-                <li class="list-group-item">Phone Number</li>
-                <li class="list-group-item">Message</li>
-            </ul>
-            <button type="button" class="btn btn-info">SEND</button>
-        </section>
-        <footer>
-            <h4>LOCATION</h4>
-            <p>Centar za obrazovanje</p>
-            <p>BIT TECHNOLOGY</p>
-            <p>Nemanjina 4/1,Beograd</p>
-            <div class="web">
-                <p>AROUND THE WEB</p>
-                <i class="fab fa-facebook-f" data-fa-transform="shrink-3.5 down-1.6 right-1.25" data-fa-mask="fas fa-circle" style="background:MistyRose"></i>
-                <p>MORE DETAILS</p>
+        <footer class="footer text-center mt-5 ftr">
+            <div class="container py-5">
+                <div class="row px-8">
+                    <div class="col-md-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-1">Location</h4>
+                        <p class="lead mb-0">
+                            Centar za obrazovanje</p>
+                        <p class="lead mb-0">
+                            BIT TECHNOLOGY</p>
+                        <p class="lead mb-0">
+                            Nemanjina 4/1,Beograd</p>
+                    </div>
+                    <div class="col-md-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">Around the Web</h4>
+                        <ul class="list-inline mb-0 text-center px-8">
+                            <li class="list-inline-item">
+                                <i class="fab fa-facebook-f fa-2x "></i>
+                            </li>
+                            <li class="list-inline-item ">
+                                <i class="fab  fa-google-plus fa-2x"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <i class="fab fa-twitter fa-2x"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <i class="fab  fa-linkedin fa-2x"></i>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h4 class="text-uppercase mb-4">More Details </h4>
+                        <p class="lead mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci incidunt quasi modi temporibus
+                            provident alias velit quaerat quod qui delectus harum sunt dolor, eos porro ratione corrupti
+                            culpa? Sequi, inventore!
+                        </p>
+                    </div>
+                </div>
             </div>
-
         </footer>
-
 
     </main>
 

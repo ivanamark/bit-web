@@ -13,6 +13,10 @@ header {
     color: $colorLetter;
 }
 
-.dropdown-toggle {
+header button.navbar-toggler {
     background-color: $green-color;
+    color: $colorLetter;
+}
+.container .navbar a {
+    color: $colorLetter;
 }

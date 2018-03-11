@@ -18,7 +18,7 @@ $($button).on('click', function (event) {
             var $img=$('<img>')// img elemen
             $img.attr('src',currentUser.avatar_url);
             var $p=$('<p>');
-            $p.textContent = 'currentUser.login';
+            $p.text(currentUser.login);
             // img.src = currentUser.avatar_url
             // p element
             // p.textContent = currentUser.login
